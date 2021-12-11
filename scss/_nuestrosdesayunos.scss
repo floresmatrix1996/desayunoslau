@@ -1,0 +1,51 @@
+/* NUESTROS DESAYUNOS */
+
+.nuestrosdesayunos {
+    font-family:monospace;
+}
+.titulo{
+    
+    text-align:center;
+}
+
+.container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 30px;
+}
+
+.item{
+    cursor: pointer;}
+
+.item:hover {
+transform: scale(1.05)
+}    
+
+
+.item-img {
+    max-width: 100%;
+    display: block;
+}
+
+/*  formas de pago */
+
+.imagenenvio{
+    padding: 25px;
+}
+.mediosdepagos  h3{
+    padding: 25px;
+    text-align: center;
+}
+
+.parrafo p {
+    padding: 1spx;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
