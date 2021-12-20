@@ -1,5 +1,32 @@
-* h2{
+*  h2{
     font-family: 'Pacifico', cursive;
     font-size: 30px;
+    color: white;
+
     text-align: center;
+}
+
+/* background color */
+
+$color: rgb(156, 74, 88);
+
+.nuestrosdesayunoscolor{
+    background-color: $color;
+    }
+
+    /* EXTEND */
+.especialfutbolcolor{
+
+        @extend .nuestrosdesayunoscolor;
+    }
+
+    /* MIXING */
+
+@mixin font-color {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #ee7589; }
+
+.logoletra {
+    @include font-color
 }

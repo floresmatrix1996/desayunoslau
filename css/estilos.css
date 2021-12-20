@@ -1,7 +1,23 @@
 * h2 {
   font-family: 'Pacifico', cursive;
   font-size: 30px;
+  color: white;
   text-align: center; }
+
+.container{
+  text-align: center;
+}
+
+/* background color */
+.nuestrosdesayunoscolor, .especialfutbolcolor {
+  background-color: #9c4a58; }
+
+/* EXTEND */
+/* MIXING */
+.logoletra {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #ee7589; }
 
 /* titulo nav */
 .logoletra {
@@ -11,7 +27,7 @@
 
 /*FOOTER */
 footer {
-  position: sticky;
+  position: static;
   bottom: 0;
   left: 0;
   height: fit-content;
